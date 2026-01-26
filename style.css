@@ -1,0 +1,21 @@
+*{
+padding: 0%;
+margin: 0%;
+}
+
+#btn{
+    margin-right: 50px;
+    background-color: #7C4EE4;
+    color: white;
+}
+.one{
+    
+height: 37px;
+padding-top: 9px;
+    padding-right: 40px;
+}
+#hero{
+    background-color: #7C4EE4;
+}
+
+
