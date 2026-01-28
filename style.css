@@ -2,63 +2,63 @@
 padding: 0%;
 margin: 0%;
 }
+/* Navbar Container */
 .navbar {
   display: flex;
-  justify-content: space-between; /* logo aur links ko space deta hai */
-  align-items: center; /* vertically center */
-  padding: 12px 24px;
-  background-color: #fff; /* ya transparent */
-  position: sticky; /* scroll pe fixed rahe */
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  background-color: #343a40; /* bg-body-tertiary */
+  position: sticky;
   top: 0;
-  z-index: 1000; /* dusre elements ke upar rahe */
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* subtle shadow */
+  z-index: 1030;
+}
+
+/* Logo/Brand */
+.navbar-brand {
+  margin-left: 10px;
+}
+
+.navbar-brand img {
+  height: auto;
+  max-height: 50px;
 }
 
 /* Nav Links Container */
-.nav-links {
+.navbar-nav {
   display: flex;
-  gap: 24px; /* links ke beech spacing */
-  margin-left: auto; /* right side push kare */
+  gap: 0.5rem;
+  margin-bottom: 0;
+  margin-left: auto;
 }
 
-/* Individual Links */
-.nav-link {
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
-  transition: color 0.2s ease;
+/* Individual Nav Items */
+.nav-item {
+  list-style: none;
 }
 
-.nav-link:hover {
-  color: #7C4EE4; /* purple accent */
-}
-
+/* Nav Link - Active/Current */
 .nav-link.active {
-  color: #7C4EE4;
+  color: #7C4EE4; /* Purple color */
+  margin-left: 1380px; /* Ye responsive nahi hai - isko hatao */
+}
+
+/* Nav Link - Normal */
+.nav-link {
+  color: inherit;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
 }
 
 /* Contact Button */
-.contact-btn {
-  padding: 10px 20px;
-  border: 2px solid #7C4EE4;
-  border-radius: 8px;
+.btn-outline-success {
+  border: 1px solid #28a745;
+  color: #28a745;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
   background: transparent;
-  color: #7C4EE4;
-  cursor: pointer;
-  transition: all 0.2s ease;
 }
 
-.contact-btn:hover {
-  background: #7C4EE4;
-  color: white;
-}
-
-
-#btn{
-    margin-right: 50px;
-    background-color: #7C4EE4;
-    color: white;
-}
 .one{
     
 height: 37px;
