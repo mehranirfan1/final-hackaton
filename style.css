@@ -2,23 +2,6 @@
 padding: 0%;
 margin: 0%;
 }
-
-#btn{
-    margin-right: 50px;
-    background-color: #7C4EE4;
-    color: white;
-}
-.one{
-    
-height: 37px;
-padding-top: 9px;
-    padding-right: 40px;
-}
-#hero{
-    background-color: #7C4EE4;
-}
-/*ai  */
-/* Main Navbar Container */
 .navbar {
   display: flex;
   justify-content: space-between; /* logo aur links ko space deta hai */
@@ -69,6 +52,24 @@ padding-top: 9px;
   background: #7C4EE4;
   color: white;
 }
+
+
+#btn{
+    margin-right: 50px;
+    background-color: #7C4EE4;
+    color: white;
+}
+.one{
+    
+height: 37px;
+padding-top: 9px;
+    padding-right: 40px;
+}
+#hero{
+    background-color: #7C4EE4;
+}
+/*ai  */
+/* Main Navbar Container */
 
 
 
