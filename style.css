@@ -17,5 +17,58 @@ padding-top: 9px;
 #hero{
     background-color: #7C4EE4;
 }
+/*ai  */
+/* Main Navbar Container */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* logo aur links ko space deta hai */
+  align-items: center; /* vertically center */
+  padding: 12px 24px;
+  background-color: #fff; /* ya transparent */
+  position: sticky; /* scroll pe fixed rahe */
+  top: 0;
+  z-index: 1000; /* dusre elements ke upar rahe */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* subtle shadow */
+}
+
+/* Nav Links Container */
+.nav-links {
+  display: flex;
+  gap: 24px; /* links ke beech spacing */
+  margin-left: auto; /* right side push kare */
+}
+
+/* Individual Links */
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #7C4EE4; /* purple accent */
+}
+
+.nav-link.active {
+  color: #7C4EE4;
+}
+
+/* Contact Button */
+.contact-btn {
+  padding: 10px 20px;
+  border: 2px solid #7C4EE4;
+  border-radius: 8px;
+  background: transparent;
+  color: #7C4EE4;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.contact-btn:hover {
+  background: #7C4EE4;
+  color: white;
+}
+
 
 
